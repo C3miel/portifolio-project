@@ -1,0 +1,183 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    /* fr= frame */
+}
+
+#header{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    margin: 40px 0px 40px 0px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: poppins;
+    font-size: 18px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+    
+}
+
+/*TESTE*/
+
+#textoCta{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    margin-top: 85px;
+}
+#paragCta{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#buttonCta{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    background-color: #1F7CFF;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+#headerImg img{
+    width: 100%;
+}
+
+#headerImg{
+    margin-left: 40px;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+
+#headerLogoText{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.headerLogo{
+    text-align: center;
+}
+
+#clients{
+    margin: 50px 0px 50px 0px;
+}
+
+/* Meus Serviços */
+
+h2.red{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #F75C4E;
+}
+
+h1.black{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 0;
+    }
+
+p.description{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+#services .textCenter h3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+#meusServicos{
+    margin-bottom: 50px;
+}
+
+#contactImg img{
+    width: 100%;
+}
+
+#contactForm{
+    margin-left: 75px;
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contactForm input{
+    border-radius: 50px;
+    background-color: #F5F6FB;
+    border: 0;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#contactForm button{
+    background-color: #1F7CFF;
+    border: 0;
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF ;
+}
+
+#portifolioTittle{
+    margin-top: 150px;
+}
+
+#imgPortifolio{
+    margin: 70px 0px 70px 0px;
+}
